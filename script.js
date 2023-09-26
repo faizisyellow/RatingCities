@@ -49,7 +49,7 @@ function rating() {
       //card three
       const getStar = star[i].querySelectorAll("span");
       for (let i = 0; i < getStar.length; i++) {
-        if (i <= 2) {
+        if (i <= 3) {
           getStar[i].classList.add("checked");
         }
       }
